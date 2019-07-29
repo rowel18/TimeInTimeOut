@@ -112,7 +112,7 @@
                         h = 0;
                     }
                     else if (h > 12) {
-                        h = h - 0;
+                        h = h - 12;
                     }
 
                     if (h < 10) {
@@ -129,7 +129,7 @@
                 
                 var dateNow = document.getElementById("Date");
                 dateNow.textContent = " " + days[day] + " " + date + " " + months[month] + " " + year + " ";
-                // Clock.innerText = " " + days[day] + " " + date + " " + months[month] + " " + year + " " + " | " + h + ":" + m + ":" + s;
+                // dateNow.innerText = " " + days[day] + " " + date + " " + months[month] + " " + year + " " + " | " + h + ":" + m + ":" + s;
 
                 var timeNow = document.getElementById("Time");
                 timeNow.textContent = h + ":" + m + ":" + s;
